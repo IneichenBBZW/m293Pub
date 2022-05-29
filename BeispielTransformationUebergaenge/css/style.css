@@ -1,0 +1,136 @@
+body {
+  font: serif;
+  background: black;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 3px;
+  padding-inline-end: 3px;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+
+.imgscale {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.imgscale:hover {
+  transform: scale(1.25);
+  border: 4px white solid;
+}
+
+.imgrotate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.imgrotate:hover {
+  transform: rotate(15deg);
+  border: 4px white solid;
+}
+
+.imgskew {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.imgskew:hover {
+  transform: skew(5deg, 10deg);
+  border: 4px white solid;
+}
+
+.imgtranslate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.imgtranslate:hover {
+  transform: translate(-30px, 20px);
+  border: 4px white solid;
+}
+
+.imgscalerotate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.imgscalerotate:hover {
+  transform: scale(1.25) rotate(10deg);
+  border: 4px white solid;
+}
+
+.imgtransitionscalerotate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transition: all 1s ease;
+}
+
+.imgtransitionscalerotate:hover {
+  transform: scale(1.25) rotate(10deg);
+  transition: all 1s ease;
+  border: 4px white solid;
+}
+
+.imgtransitionscale {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transition: all 1s ease;
+}
+
+.imgtransitionscale:hover {
+  transform: scale(1.25);
+  transition: all 1s ease;
+  border: 4px white solid;
+}
+
+.imgtransitionrotate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transition: all 1s ease;
+}
+
+.imgtransitionrotate:hover {
+  transform: rotate(10deg);
+  transition: all 1s ease;
+  border: 4px white solid;
+}
+
+.imgtransitionscaletranslate {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transition: all 1s ease;
+}
+
+.imgtransitionscaletranslate:hover {
+  transform: scale(1.25) translate(-100px, -60px);
+  transition: all 1s ease;
+  border: 4px white solid;
+}
