@@ -1,0 +1,37 @@
+@import 'variables';
+
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+    nav {
+        flex: 0 0 auto;
+        display: flex;
+        padding: 0;
+    }
+    nav ul {
+        flex: 1 1 auto;
+        display: flex;
+        list-style: none;
+    }
+    nav ul li, nav ul li:first-child {
+        flex: 1 1 auto;
+        border: none;
+        text-align: center;
+        padding: 1em;
+    }
+    article {
+        flex-direction: column;
+    }
+    article > div {
+        flex: 1 1 auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li:not(:first-child) {
+        border-top: 1px dashed $color-onLight1;
+    }
+}

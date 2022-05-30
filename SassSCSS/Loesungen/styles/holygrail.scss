@@ -1,0 +1,56 @@
+@import 'variables';
+
+html,
+body,
+nav ul,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header,
+footer {
+    background: $bg-dark;
+    color: $color-onDark;
+    align-items: center;
+}
+header {
+    padding: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+footer {
+    padding: 1em;
+    text-align: center;
+}
+main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    padding-top: 1em;
+    flex: 0 0 25%;
+    background: $bg-light1;
+}
+nav ul li {
+    padding: .5em;
+    border-bottom: 1px solid $color-onLight1;
+}
+nav ul li:first-of-type {
+    border-top: 1px solid $color-onLight1;
+}
+nav ul li:hover {
+    background: $bg-light2;
+}
+article {
+    flex: 1 1 auto;
+    padding: 1em;
+}
