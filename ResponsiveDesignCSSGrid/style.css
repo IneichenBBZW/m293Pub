@@ -55,7 +55,7 @@ ul {
   text-align: center;
   border-top: 1px solid #efefef;
 }
-a {
+.nav-a {
   display: inline-block;
   padding: 0.6em 2rem;
   width: 100%;
@@ -162,7 +162,7 @@ a {
   }
 }
 /*------------------------------------------------------------------- 
-    Große Bildschirme (>1280 Pixel) 
+    Grosse Bildschirme (>1280 Pixel) 
       1280px / 16px/em = 80em
 	    + 3 Spalten
       - Header oben
