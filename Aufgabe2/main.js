@@ -1,7 +1,7 @@
 "use strict";
 
 class Einkauf {
-  /*Mit ES2022 führt JavaScript ecte private (#) Eigenschaften*/
+  /*Mit ES2022 führt JavaScript echte private (#) Eigenschaften*/
   #SCREW_FACTOR = 0.2;
   #SCREW_NUT_FACTOR = 0.1;
   #GROMMET_FACTOR = 0.05;
